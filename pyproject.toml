@@ -1,10 +1,10 @@
 [build-system]
-requires = ["maturin>=1.8,<2.0"]
+requires = ["maturin>=1.15,<2.0"]
 build-backend = "maturin"
 
 [project]
 name = "falsa"
-license = "Apache 2.0"
+license = "WTFPL"
 description = "Unofficial Rust-based implementation of H2O benchmark dataset generation"
 maintainers = [
     { name = "Sem", email = "ssinchenko@apache.org" },

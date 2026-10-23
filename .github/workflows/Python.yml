@@ -51,6 +51,6 @@ jobs:
           . .venv/bin/activate
           python tests/tests_main.py
       - name: Install Ruff
-        uses: astral-sh/ruff-action@v4
+        uses: astral-sh/ruff-action@v4.1.0
         with:
           args: "format --check"
